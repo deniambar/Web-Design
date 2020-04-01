@@ -10,31 +10,30 @@
 		<header>
 			<img src="logoa.png" alt="logo">
 			<nav>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="">Tutorial</a></li>
-				<li><a href="">Video</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
+				<a href="index.html">Home</a>
+				<a href="artikel.html">Artikel</a>
+				<a href="contact.html">Contact Us</a>
 			</nav>
-			<form action="">
+			<form action="cari.php">
 				<input type="text" name="search">
 			</form>
 		</header>
 		<div id="form">
 			<form action="action_page.php">
 
-				<label>Nama</label>
-				<input type="text" class="form-input" placeholder="Your name..">
+				<label for="nama">Nama</label>
+				<input id="nama" type="text" class="form-input" placeholder="Your name..">
 
-				<label>Email</label>
-				<input type="email" class="form-input" placeholder="Your Email..">
+				<label for="email">Email</label>
+				<input id="email" type="email" class="form-input" placeholder="Your Email..">
 
-				<label>Website</label>
-				<input type="url" class="form-input" placeholder="Your Website..">
+				<label for="webiste">Website</label>
+				<input id="webiste" type="url" class="form-input" placeholder="Your Website..">
 
 				<label for="subject">Message</label>
-				<textarea class="form-input" placeholder="Write something.." style="height:200px"></textarea>
+				<textarea id="subject" class="form-input" placeholder="Write something.." style="height:200px"></textarea>
 
-				<input type="submit" class="tombol" value="Submit">
+				<button class="tombol">Kirim</button>
 
 			</form>
 		</div>
@@ -59,7 +58,7 @@
 		<!-- /sidebar -->
 		<!-- footer -->
 		<footer>
-			<p>Desain Web copyright 2017 by Wahyu W</p>
+			<p>Desain Web copyright 2017 by Deni A</p>
 		</footer>
 		<!-- /footer -->
 	</div>
